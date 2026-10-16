@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 297" width="1680" height="1188"><rect width="420" height="297" fill="white"/>
+<line x1="10" y1="287" x2="410" y2="287" stroke="black" stroke-width="0.35"/>
+<line x1="410" y1="287" x2="410" y2="10" stroke="black" stroke-width="0.35"/>
+<line x1="410" y1="10" x2="10" y2="10" stroke="black" stroke-width="0.35"/>
+<line x1="10" y1="10" x2="10" y2="287" stroke="black" stroke-width="0.35"/>
+<line x1="10" y1="13" x2="10" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="33" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">1</text>
+<line x1="60" y1="13" x2="60" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="83" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">2</text>
+<line x1="110" y1="13" x2="110" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="133" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">3</text>
+<line x1="160" y1="13" x2="160" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="183" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">4</text>
+<line x1="210" y1="13" x2="210" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="233" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">5</text>
+<line x1="260" y1="13" x2="260" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="283" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">6</text>
+<line x1="310" y1="13" x2="310" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="333" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">7</text>
+<line x1="360" y1="13" x2="360" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="383" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">8</text>
+<text x="5" y="242" font-family="Arial,Helvetica,sans-serif" font-size="3.12">A</text>
+<text x="412" y="242" font-family="Arial,Helvetica,sans-serif" font-size="3.12">A</text>
+<text x="5" y="196" font-family="Arial,Helvetica,sans-serif" font-size="3.12">B</text>
+<text x="412" y="196" font-family="Arial,Helvetica,sans-serif" font-size="3.12">B</text>
+<text x="5" y="150" font-family="Arial,Helvetica,sans-serif" font-size="3.12">C</text>
+<text x="412" y="150" font-family="Arial,Helvetica,sans-serif" font-size="3.12">C</text>
+<text x="5" y="104" font-family="Arial,Helvetica,sans-serif" font-size="3.12">D</text>
+<text x="412" y="104" font-family="Arial,Helvetica,sans-serif" font-size="3.12">D</text>
+<text x="5" y="58" font-family="Arial,Helvetica,sans-serif" font-size="3.12">E</text>
+<text x="412" y="58" font-family="Arial,Helvetica,sans-serif" font-size="3.12">E</text>
+<text x="16" y="20" font-family="Arial,Helvetica,sans-serif" font-size="5.2">E-001  DESIGN BASIS, SINGLE-LINE ARCHITECTURE AND POWER BUDGET</text>
+<text x="16" y="28" font-family="Arial,Helvetica,sans-serif" font-size="3.3800000000000003">Independent conceptual study — unbuilt and unvalidated.</text>
+<line x1="10" y1="34" x2="410" y2="34" stroke="black" stroke-width="0.35"/>
+<line x1="10" y1="250" x2="410" y2="250" stroke="black" stroke-width="0.35"/>
+<text x="15" y="259" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">ENV-USV-01  |  CIVILIAN WATER-QUALITY MONITORING</text>
+<text x="15" y="267" font-family="Arial,Helvetica,sans-serif" font-size="4.16">Design basis, single-line architecture and power budget</text>
+<text x="15" y="275" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Prepared for: Pratik Prabhakar Shinde   |   AI-assisted independent study</text>
+<text x="15" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">DXF generated with Python. Not drafted or validated inside AutoCAD.</text>
+<line x1="285" y1="287" x2="285" y2="250" stroke="black" stroke-width="0.35"/>
+<line x1="350" y1="287" x2="350" y2="250" stroke="black" stroke-width="0.35"/>
+<text x="289" y="258" font-family="Arial,Helvetica,sans-serif" font-size="3.5100000000000002">DRAWING: E-001</text>
+<text x="289" y="266" font-family="Arial,Helvetica,sans-serif" font-size="3.25">REV: B / 17 OCT 2026</text>
+<text x="289" y="274" font-family="Arial,Helvetica,sans-serif" font-size="3.25">CHECK: NOT REVIEWED</text>
+<text x="289" y="282" font-family="Arial,Helvetica,sans-serif" font-size="3.12">APPROVAL: NOT ISSUED</text>
+<text x="354" y="258" font-family="Arial,Helvetica,sans-serif" font-size="3.25">A3 / 420 x 297 mm</text>
+<text x="354" y="266" font-family="Arial,Helvetica,sans-serif" font-size="3.25">SCALE: NTS</text>
+<text x="354" y="274" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">UNITS: mm (sheet)</text>
+<text x="354" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.7300000000000004">PLOT: 1:1 / LANDSCAPE</text>
+<text x="16" y="44" font-family="Arial,Helvetica,sans-serif" font-size="4.16">1. DESIGN BASIS</text>
+<text x="16" y="51.0" font-family="Arial,Helvetica,sans-serif" font-size="3.3800000000000003">Mission: 2 h sheltered-water environmental survey; visual supervision and recovery support.</text>
+<text x="16" y="56.5" font-family="Arial,Helvetica,sans-serif" font-size="3.3800000000000003">Nonconductive 2-3 m hull assumed. Displacement, speed, thrust and battery mass are unresolved.</text>
+<text x="16" y="62.0" font-family="Arial,Helvetica,sans-serif" font-size="3.3800000000000003">B1: 8S LiFePO4 / 25.6 V nominal / 100 Ah / planning range 22.4-29.2 V.</text>
+<text x="16" y="67.5" font-family="Arial,Helvetica,sans-serif" font-size="3.3800000000000003">No charger aboard. Remove/isolate pack for approved shore charging. No AC system in scope.</text>
+<text x="16" y="81" font-family="Arial,Helvetica,sans-serif" font-size="4.16">2. FUNCTIONAL SINGLE-LINE (RETURNS OMITTED ON THIS SHEET)</text>
+<line x1="16" y1="120" x2="69" y2="120" stroke="black" stroke-width="0.18"/>
+<line x1="69" y1="120" x2="69" y2="92" stroke="black" stroke-width="0.18"/>
+<line x1="69" y1="92" x2="16" y2="92" stroke="black" stroke-width="0.18"/>
+<line x1="16" y1="92" x2="16" y2="120" stroke="black" stroke-width="0.18"/>
+<text x="18" y="97" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">B1 + BMS</text>
+<text x="18" y="102" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">25.6 V / 100 Ah</text>
+<text x="18" y="106" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">BMS &gt;=100 A assumed</text>
+<line x1="69" y1="106" x2="83" y2="106" stroke="black" stroke-width="0.35"/>
+<line x1="83" y1="120" x2="139" y2="120" stroke="black" stroke-width="0.18"/>
+<line x1="139" y1="120" x2="139" y2="92" stroke="black" stroke-width="0.18"/>
+<line x1="139" y1="92" x2="83" y2="92" stroke="black" stroke-width="0.18"/>
+<line x1="83" y1="92" x2="83" y2="120" stroke="black" stroke-width="0.18"/>
+<text x="85" y="97" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">F0 / Q0</text>
+<text x="85" y="102" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">80 A main fuse</text>
+<text x="85" y="106" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">2-pole manual isolator</text>
+<line x1="139" y1="106" x2="155" y2="106" stroke="black" stroke-width="0.35"/>
+<line x1="155" y1="144" x2="155" y2="106" stroke="black" stroke-width="0.35"/>
+<line x1="155" y1="106" x2="172" y2="106" stroke="black" stroke-width="0.35"/>
+<line x1="172" y1="120" x2="225" y2="120" stroke="black" stroke-width="0.18"/>
+<line x1="225" y1="120" x2="225" y2="92" stroke="black" stroke-width="0.18"/>
+<line x1="225" y1="92" x2="172" y2="92" stroke="black" stroke-width="0.18"/>
+<line x1="172" y1="92" x2="172" y2="120" stroke="black" stroke-width="0.18"/>
+<text x="174" y="97" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">K1 / F1-F2</text>
+<text x="174" y="102" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">Propulsion contactor</text>
+<text x="174" y="106" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">2 x 40 A DC feeders</text>
+<line x1="225" y1="106" x2="240" y2="106" stroke="black" stroke-width="0.35"/>
+<line x1="240" y1="117" x2="240" y2="95" stroke="black" stroke-width="0.35"/>
+<line x1="240" y1="95" x2="257" y2="95" stroke="black" stroke-width="0.35"/>
+<line x1="257" y1="104" x2="323" y2="104" stroke="black" stroke-width="0.18"/>
+<line x1="323" y1="104" x2="323" y2="83" stroke="black" stroke-width="0.18"/>
+<line x1="323" y1="83" x2="257" y2="83" stroke="black" stroke-width="0.18"/>
+<line x1="257" y1="83" x2="257" y2="104" stroke="black" stroke-width="0.18"/>
+<text x="259" y="88" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">ESC1 / M1</text>
+<text x="259" y="93" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">Port: 300 / 600 W</text>
+<line x1="240" y1="117" x2="257" y2="117" stroke="black" stroke-width="0.35"/>
+<line x1="257" y1="128" x2="323" y2="128" stroke="black" stroke-width="0.18"/>
+<line x1="323" y1="128" x2="323" y2="107" stroke="black" stroke-width="0.18"/>
+<line x1="323" y1="107" x2="257" y2="107" stroke="black" stroke-width="0.18"/>
+<line x1="257" y1="107" x2="257" y2="128" stroke="black" stroke-width="0.18"/>
+<text x="259" y="112" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">ESC2 / M2</text>
+<text x="259" y="117" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">Stbd: 300 / 600 W</text>
+<line x1="155" y1="144" x2="172" y2="144" stroke="black" stroke-width="0.35"/>
+<line x1="172" y1="159" x2="237" y2="159" stroke="black" stroke-width="0.18"/>
+<line x1="237" y1="159" x2="237" y2="132" stroke="black" stroke-width="0.18"/>
+<line x1="237" y1="132" x2="172" y2="132" stroke="black" stroke-width="0.18"/>
+<line x1="172" y1="132" x2="172" y2="159" stroke="black" stroke-width="0.18"/>
+<text x="174" y="137" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">F3 / D1 / F5</text>
+<text x="174" y="142" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">24 V class -&gt; 12 V</text>
+<text x="174" y="146" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">120 W DC/DC; 7.5 A out</text>
+<line x1="237" y1="146" x2="257" y2="146" stroke="black" stroke-width="0.35"/>
+<line x1="257" y1="159" x2="395" y2="159" stroke="black" stroke-width="0.18"/>
+<line x1="395" y1="159" x2="395" y2="132" stroke="black" stroke-width="0.18"/>
+<line x1="395" y1="132" x2="257" y2="132" stroke="black" stroke-width="0.18"/>
+<line x1="257" y1="132" x2="257" y2="159" stroke="black" stroke-width="0.18"/>
+<text x="259" y="137" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">F6-F10 / 12 V SERVICES</text>
+<text x="259" y="142" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">Autopilot, GNSS, logger, telemetry, payload</text>
+<text x="259" y="146" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">60 W baseline; detailed branches on E-003</text>
+<text x="16" y="171" font-family="Arial,Helvetica,sans-serif" font-size="4.16">3. POWER BUDGET - ASSUMED ELECTRICAL INPUTS</text>
+<line x1="16" y1="231" x2="250" y2="231" stroke="black" stroke-width="0.18"/>
+<line x1="250" y1="231" x2="250" y2="177" stroke="black" stroke-width="0.18"/>
+<line x1="250" y1="177" x2="16" y2="177" stroke="black" stroke-width="0.18"/>
+<line x1="16" y1="177" x2="16" y2="231" stroke="black" stroke-width="0.18"/>
+<line x1="122" y1="231" x2="122" y2="177" stroke="black" stroke-width="0.18"/>
+<line x1="156" y1="231" x2="156" y2="177" stroke="black" stroke-width="0.18"/>
+<line x1="190" y1="231" x2="190" y2="177" stroke="black" stroke-width="0.18"/>
+<line x1="16" y1="186" x2="250" y2="186" stroke="black" stroke-width="0.18"/>
+<line x1="16" y1="195" x2="250" y2="195" stroke="black" stroke-width="0.18"/>
+<line x1="16" y1="204" x2="250" y2="204" stroke="black" stroke-width="0.18"/>
+<line x1="16" y1="213" x2="250" y2="213" stroke="black" stroke-width="0.18"/>
+<line x1="16" y1="222" x2="250" y2="222" stroke="black" stroke-width="0.18"/>
+<text x="18" y="182.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">LOAD</text>
+<text x="124" y="182.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">CRUISE W</text>
+<text x="158" y="182.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">PEAK W</text>
+<text x="192" y="182.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">BASIS</text>
+<text x="18" y="191.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Propulsion (2 thrusters)</text>
+<text x="124" y="191.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">600</text>
+<text x="158" y="191.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">1200</text>
+<text x="192" y="191.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">2 x 300 / 600 W</text>
+<text x="18" y="200.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">12 V services</text>
+<text x="124" y="200.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">60</text>
+<text x="158" y="200.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">60</text>
+<text x="192" y="200.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">D1 output load</text>
+<text x="18" y="209.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">D1 conversion loss</text>
+<text x="124" y="209.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">6.7</text>
+<text x="158" y="209.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">6.7</text>
+<text x="192" y="209.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">90% efficiency</text>
+<text x="18" y="218.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Permit/control coils</text>
+<text x="124" y="218.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">4</text>
+<text x="158" y="218.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">4</text>
+<text x="192" y="218.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Allowance incl. relay drives</text>
+<text x="18" y="227.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">TOTAL AT BATTERY</text>
+<text x="124" y="227.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">670.7</text>
+<text x="158" y="227.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">1270.7</text>
+<text x="192" y="227.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Simultaneous peak</text>
+<text x="263" y="179.0" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">ENERGY ESTIMATE (NOT MEASURED)</text>
+<text x="263" y="185.8" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Nominal: 25.6 x 100 = 2560 Wh</text>
+<text x="263" y="192.6" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Planning: 2560 x 0.80 x 0.90 = 1843 Wh</text>
+<text x="263" y="199.4" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Mission: 670.7 x 2 = 1341 Wh</text>
+<text x="263" y="206.2" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Endurance: 1843 / 670.7 = 2.75 h</text>
+<text x="263" y="213.0" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">At 900 W propulsion: only 1.90 h</text>
+<text x="263" y="219.8" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Cable/contact losses not explicitly added.</text>
+<text x="263" y="226.6" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">See calculations/calculations.md.</text>
+</svg>

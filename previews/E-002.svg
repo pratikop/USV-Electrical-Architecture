@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 297" width="1680" height="1188"><rect width="420" height="297" fill="white"/>
+<line x1="10" y1="287" x2="410" y2="287" stroke="black" stroke-width="0.35"/>
+<line x1="410" y1="287" x2="410" y2="10" stroke="black" stroke-width="0.35"/>
+<line x1="410" y1="10" x2="10" y2="10" stroke="black" stroke-width="0.35"/>
+<line x1="10" y1="10" x2="10" y2="287" stroke="black" stroke-width="0.35"/>
+<line x1="10" y1="13" x2="10" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="33" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">1</text>
+<line x1="60" y1="13" x2="60" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="83" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">2</text>
+<line x1="110" y1="13" x2="110" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="133" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">3</text>
+<line x1="160" y1="13" x2="160" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="183" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">4</text>
+<line x1="210" y1="13" x2="210" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="233" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">5</text>
+<line x1="260" y1="13" x2="260" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="283" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">6</text>
+<line x1="310" y1="13" x2="310" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="333" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">7</text>
+<line x1="360" y1="13" x2="360" y2="10" stroke="black" stroke-width="0.35"/>
+<text x="383" y="9" font-family="Arial,Helvetica,sans-serif" font-size="2.6">8</text>
+<text x="5" y="242" font-family="Arial,Helvetica,sans-serif" font-size="3.12">A</text>
+<text x="412" y="242" font-family="Arial,Helvetica,sans-serif" font-size="3.12">A</text>
+<text x="5" y="196" font-family="Arial,Helvetica,sans-serif" font-size="3.12">B</text>
+<text x="412" y="196" font-family="Arial,Helvetica,sans-serif" font-size="3.12">B</text>
+<text x="5" y="150" font-family="Arial,Helvetica,sans-serif" font-size="3.12">C</text>
+<text x="412" y="150" font-family="Arial,Helvetica,sans-serif" font-size="3.12">C</text>
+<text x="5" y="104" font-family="Arial,Helvetica,sans-serif" font-size="3.12">D</text>
+<text x="412" y="104" font-family="Arial,Helvetica,sans-serif" font-size="3.12">D</text>
+<text x="5" y="58" font-family="Arial,Helvetica,sans-serif" font-size="3.12">E</text>
+<text x="412" y="58" font-family="Arial,Helvetica,sans-serif" font-size="3.12">E</text>
+<text x="16" y="20" font-family="Arial,Helvetica,sans-serif" font-size="5.2">E-002  MAIN DC DISTRIBUTION AND PROPULSION FEEDERS</text>
+<text x="16" y="28" font-family="Arial,Helvetica,sans-serif" font-size="3.3800000000000003">Independent conceptual study — unbuilt and unvalidated.</text>
+<line x1="10" y1="34" x2="410" y2="34" stroke="black" stroke-width="0.35"/>
+<line x1="10" y1="250" x2="410" y2="250" stroke="black" stroke-width="0.35"/>
+<text x="15" y="259" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">ENV-USV-01  |  CIVILIAN WATER-QUALITY MONITORING</text>
+<text x="15" y="267" font-family="Arial,Helvetica,sans-serif" font-size="4.16">Main DC distribution and propulsion feeders</text>
+<text x="15" y="275" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Prepared for: Pratik Prabhakar Shinde   |   AI-assisted independent study</text>
+<text x="15" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">DXF generated with Python. Not drafted or validated inside AutoCAD.</text>
+<line x1="285" y1="287" x2="285" y2="250" stroke="black" stroke-width="0.35"/>
+<line x1="350" y1="287" x2="350" y2="250" stroke="black" stroke-width="0.35"/>
+<text x="289" y="258" font-family="Arial,Helvetica,sans-serif" font-size="3.5100000000000002">DRAWING: E-002</text>
+<text x="289" y="266" font-family="Arial,Helvetica,sans-serif" font-size="3.25">REV: B / 17 OCT 2026</text>
+<text x="289" y="274" font-family="Arial,Helvetica,sans-serif" font-size="3.25">CHECK: NOT REVIEWED</text>
+<text x="289" y="282" font-family="Arial,Helvetica,sans-serif" font-size="3.12">APPROVAL: NOT ISSUED</text>
+<text x="354" y="258" font-family="Arial,Helvetica,sans-serif" font-size="3.25">A3 / 420 x 297 mm</text>
+<text x="354" y="266" font-family="Arial,Helvetica,sans-serif" font-size="3.25">SCALE: NTS</text>
+<text x="354" y="274" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">UNITS: mm (sheet)</text>
+<text x="354" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.7300000000000004">PLOT: 1:1 / LANDSCAPE</text>
+<text x="16" y="44" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">POWER CIRCUITS / SIMPLIFIED DEVICE SYMBOLS / ALL CONTACTS SHOWN DE-ENERGIZED</text>
+<text x="16" y="64" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">B1 +</text>
+<line x1="34" y1="63" x2="48" y2="63" stroke="black" stroke-width="0.35"/>
+<line x1="48" y1="63" x2="52" y2="63" stroke="black" stroke-width="0.35"/>
+<line x1="52" y1="64.80000000000001" x2="58" y2="64.80000000000001" stroke="black" stroke-width="0.18"/>
+<line x1="58" y1="64.80000000000001" x2="58" y2="61.20000000000002" stroke="black" stroke-width="0.18"/>
+<line x1="58" y1="61.20000000000002" x2="52" y2="61.20000000000002" stroke="black" stroke-width="0.18"/>
+<line x1="52" y1="61.20000000000002" x2="52" y2="64.80000000000001" stroke="black" stroke-width="0.18"/>
+<line x1="52.7" y1="64.1" x2="57.3" y2="61.900000000000006" stroke="black" stroke-width="0.18"/>
+<line x1="58" y1="63" x2="62" y2="63" stroke="black" stroke-width="0.35"/>
+<text x="49" y="58" font-family="Arial,Helvetica,sans-serif" font-size="3.5100000000000002">-F0</text>
+<text x="49" y="69" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">80 A</text>
+<line x1="62" y1="63" x2="81" y2="63" stroke="black" stroke-width="0.35"/>
+<line x1="81" y1="63" x2="85" y2="63" stroke="black" stroke-width="0.18"/>
+<line x1="89" y1="63" x2="93" y2="63" stroke="black" stroke-width="0.18"/>
+<line x1="85" y1="65" x2="85" y2="61" stroke="black" stroke-width="0.18"/>
+<line x1="89" y1="65" x2="89" y2="61" stroke="black" stroke-width="0.18"/>
+<text x="81" y="58" font-family="Arial,Helvetica,sans-serif" font-size="3.3800000000000003">-Q0:1</text>
+<text x="81" y="69" font-family="Arial,Helvetica,sans-serif" font-size="2.7300000000000004">1-2</text>
+<line x1="93" y1="63" x2="125" y2="63" stroke="black" stroke-width="0.35"/>
+<text x="16" y="110" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">B1 -</text>
+<line x1="34" y1="109" x2="81" y2="109" stroke="black" stroke-width="0.18"/>
+<line x1="81" y1="109" x2="85" y2="109" stroke="black" stroke-width="0.18"/>
+<line x1="89" y1="109" x2="93" y2="109" stroke="black" stroke-width="0.18"/>
+<line x1="85" y1="111" x2="85" y2="107" stroke="black" stroke-width="0.18"/>
+<line x1="89" y1="111" x2="89" y2="107" stroke="black" stroke-width="0.18"/>
+<text x="81" y="104" font-family="Arial,Helvetica,sans-serif" font-size="3.3800000000000003">-Q0:2</text>
+<text x="81" y="115" font-family="Arial,Helvetica,sans-serif" font-size="2.7300000000000004">3-4</text>
+<line x1="93" y1="109" x2="400" y2="109" stroke="black" stroke-width="0.18"/>
+<line x1="87" y1="99" x2="87" y2="74" stroke="black" stroke-width="0.18"/>
+<text x="16" y="96" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">Q0 POLES MECHANICALLY LINKED</text>
+<text x="16" y="76" font-family="Arial,Helvetica,sans-serif" font-size="3.055">C01 +/- : 25 mm2; 1 m each</text>
+<text x="16" y="82" font-family="Arial,Helvetica,sans-serif" font-size="3.055">F0 adjacent to battery +.</text>
+<line x1="125" y1="63" x2="125" y2="93" stroke="black" stroke-width="0.35"/>
+<circle cx="125" cy="63" r="0.65" fill="black" stroke="black" stroke-width=".2"/>
+<line x1="125" y1="63" x2="159" y2="63" stroke="black" stroke-width="0.35"/>
+<line x1="159" y1="63" x2="163" y2="63" stroke="black" stroke-width="0.18"/>
+<line x1="167" y1="63" x2="171" y2="63" stroke="black" stroke-width="0.18"/>
+<line x1="163" y1="65" x2="163" y2="61" stroke="black" stroke-width="0.18"/>
+<line x1="167" y1="65" x2="167" y2="61" stroke="black" stroke-width="0.18"/>
+<text x="159" y="58" font-family="Arial,Helvetica,sans-serif" font-size="3.3800000000000003">-K1:1</text>
+<text x="159" y="69" font-family="Arial,Helvetica,sans-serif" font-size="2.7300000000000004">1/L1-2/T1</text>
+<line x1="171" y1="63" x2="210" y2="63" stroke="black" stroke-width="0.35"/>
+<line x1="210" y1="63" x2="210" y2="83" stroke="black" stroke-width="0.35"/>
+<circle cx="210" cy="63" r="0.65" fill="black" stroke="black" stroke-width=".2"/>
+<line x1="210" y1="63" x2="228" y2="63" stroke="black" stroke-width="0.35"/>
+<line x1="228" y1="63" x2="232" y2="63" stroke="black" stroke-width="0.35"/>
+<line x1="232" y1="64.80000000000001" x2="238" y2="64.80000000000001" stroke="black" stroke-width="0.18"/>
+<line x1="238" y1="64.80000000000001" x2="238" y2="61.20000000000002" stroke="black" stroke-width="0.18"/>
+<line x1="238" y1="61.20000000000002" x2="232" y2="61.20000000000002" stroke="black" stroke-width="0.18"/>
+<line x1="232" y1="61.20000000000002" x2="232" y2="64.80000000000001" stroke="black" stroke-width="0.18"/>
+<line x1="232.7" y1="64.1" x2="237.3" y2="61.900000000000006" stroke="black" stroke-width="0.18"/>
+<line x1="238" y1="63" x2="242" y2="63" stroke="black" stroke-width="0.35"/>
+<text x="229" y="58" font-family="Arial,Helvetica,sans-serif" font-size="3.5100000000000002">-F1</text>
+<text x="229" y="69" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">40 A</text>
+<line x1="242" y1="63" x2="273" y2="63" stroke="black" stroke-width="0.35"/>
+<circle cx="261" cy="63" r="1.1" fill="white" stroke="black" stroke-width=".2"/>
+<text x="257" y="60" font-family="Arial,Helvetica,sans-serif" font-size="2.7300000000000004">X2:1</text>
+<text x="246" y="56" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">W101</text>
+<line x1="273" y1="75" x2="319" y2="75" stroke="black" stroke-width="0.18"/>
+<line x1="319" y1="75" x2="319" y2="48" stroke="black" stroke-width="0.18"/>
+<line x1="319" y1="48" x2="273" y2="48" stroke="black" stroke-width="0.18"/>
+<line x1="273" y1="48" x2="273" y2="75" stroke="black" stroke-width="0.18"/>
+<text x="275" y="53" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">-ESC1</text>
+<text x="275" y="58" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">DC+ : 1</text>
+<text x="275" y="62" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">DC- : 2</text>
+<line x1="296" y1="75" x2="296" y2="109" stroke="black" stroke-width="0.18"/>
+<circle cx="296" cy="109" r="0.65" fill="black" stroke="black" stroke-width=".2"/>
+<line x1="319" y1="62" x2="344" y2="62" stroke="black" stroke-width="0.35"/>
+<line x1="344" y1="75" x2="395" y2="75" stroke="black" stroke-width="0.18"/>
+<line x1="395" y1="75" x2="395" y2="48" stroke="black" stroke-width="0.18"/>
+<line x1="395" y1="48" x2="344" y2="48" stroke="black" stroke-width="0.18"/>
+<line x1="344" y1="48" x2="344" y2="75" stroke="black" stroke-width="0.18"/>
+<text x="346" y="53" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">-M1</text>
+<text x="346" y="58" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">Port thruster</text>
+<text x="346" y="62" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">Vendor phase leads</text>
+<text x="324" y="58" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">U/V/W</text>
+<text x="299" y="86" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">W102 / X2:2</text>
+<text x="247" y="82" font-family="Arial,Helvetica,sans-serif" font-size="3.12">C02: 2 x 10 mm2 / 3 m one way</text>
+<line x1="210" y1="83" x2="210" y2="134" stroke="black" stroke-width="0.35"/>
+<line x1="210" y1="134" x2="228" y2="134" stroke="black" stroke-width="0.35"/>
+<line x1="228" y1="134" x2="232" y2="134" stroke="black" stroke-width="0.35"/>
+<line x1="232" y1="135.8" x2="238" y2="135.8" stroke="black" stroke-width="0.18"/>
+<line x1="238" y1="135.8" x2="238" y2="132.20000000000002" stroke="black" stroke-width="0.18"/>
+<line x1="238" y1="132.20000000000002" x2="232" y2="132.20000000000002" stroke="black" stroke-width="0.18"/>
+<line x1="232" y1="132.20000000000002" x2="232" y2="135.8" stroke="black" stroke-width="0.18"/>
+<line x1="232.7" y1="135.1" x2="237.3" y2="132.9" stroke="black" stroke-width="0.18"/>
+<line x1="238" y1="134" x2="242" y2="134" stroke="black" stroke-width="0.35"/>
+<text x="229" y="129" font-family="Arial,Helvetica,sans-serif" font-size="3.5100000000000002">-F2</text>
+<text x="229" y="140" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">40 A</text>
+<line x1="242" y1="134" x2="273" y2="134" stroke="black" stroke-width="0.35"/>
+<circle cx="261" cy="134" r="1.1" fill="white" stroke="black" stroke-width=".2"/>
+<text x="257" y="131" font-family="Arial,Helvetica,sans-serif" font-size="2.7300000000000004">X3:1</text>
+<text x="246" y="127" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">W111</text>
+<line x1="273" y1="146" x2="319" y2="146" stroke="black" stroke-width="0.18"/>
+<line x1="319" y1="146" x2="319" y2="119" stroke="black" stroke-width="0.18"/>
+<line x1="319" y1="119" x2="273" y2="119" stroke="black" stroke-width="0.18"/>
+<line x1="273" y1="119" x2="273" y2="146" stroke="black" stroke-width="0.18"/>
+<text x="275" y="124" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">-ESC2</text>
+<text x="275" y="129" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">DC+ : 1</text>
+<text x="275" y="133" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">DC- : 2</text>
+<line x1="296" y1="146" x2="296" y2="157" stroke="black" stroke-width="0.18"/>
+<line x1="296" y1="157" x2="400" y2="157" stroke="black" stroke-width="0.18"/>
+<line x1="400" y1="157" x2="400" y2="109" stroke="black" stroke-width="0.18"/>
+<circle cx="400" cy="109" r="0.65" fill="black" stroke="black" stroke-width=".2"/>
+<text x="302" y="154" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">W112 / X3:2</text>
+<line x1="319" y1="133" x2="344" y2="133" stroke="black" stroke-width="0.35"/>
+<line x1="344" y1="146" x2="395" y2="146" stroke="black" stroke-width="0.18"/>
+<line x1="395" y1="146" x2="395" y2="119" stroke="black" stroke-width="0.18"/>
+<line x1="395" y1="119" x2="344" y2="119" stroke="black" stroke-width="0.18"/>
+<line x1="344" y1="119" x2="344" y2="146" stroke="black" stroke-width="0.18"/>
+<text x="346" y="124" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">-M2</text>
+<text x="346" y="129" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">Stbd thruster</text>
+<text x="346" y="133" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">Vendor phase leads</text>
+<text x="324" y="128" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">U/V/W</text>
+<text x="247" y="164" font-family="Arial,Helvetica,sans-serif" font-size="3.12">C03: 2 x 10 mm2 / 3 m one way</text>
+<line x1="125" y1="93" x2="165" y2="93" stroke="black" stroke-width="0.35"/>
+<text x="130" y="87" font-family="Arial,Helvetica,sans-serif" font-size="2.9250000000000003">W020 / DC+ TO E-003:A</text>
+<circle cx="165" cy="93" r="0.8" fill="white" stroke="black" stroke-width=".2"/>
+<circle cx="125" cy="93" r="0.65" fill="black" stroke="black" stroke-width=".2"/>
+<line x1="125" y1="93" x2="125" y2="119" stroke="black" stroke-width="0.35"/>
+<line x1="125" y1="119" x2="165" y2="119" stroke="black" stroke-width="0.35"/>
+<text x="128" y="126" font-family="Arial,Helvetica,sans-serif" font-size="2.9250000000000003">W030 / DC+ TO E-004:A</text>
+<circle cx="165" cy="119" r="0.8" fill="white" stroke="black" stroke-width=".2"/>
+<line x1="116" y1="109" x2="116" y2="143" stroke="black" stroke-width="0.18"/>
+<circle cx="116" cy="109" r="0.65" fill="black" stroke="black" stroke-width=".2"/>
+<line x1="116" y1="143" x2="165" y2="143" stroke="black" stroke-width="0.18"/>
+<text x="119" y="151" font-family="Arial,Helvetica,sans-serif" font-size="2.7300000000000004">W000 / RETURN TO E-003:B, E-004:B</text>
+<text x="16" y="176" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">FEEDER / PROTECTION CALCULATION BASIS</text>
+<line x1="16" y1="218" x2="250" y2="218" stroke="black" stroke-width="0.18"/>
+<line x1="250" y1="218" x2="250" y2="182" stroke="black" stroke-width="0.18"/>
+<line x1="250" y1="182" x2="16" y2="182" stroke="black" stroke-width="0.18"/>
+<line x1="16" y1="182" x2="16" y2="218" stroke="black" stroke-width="0.18"/>
+<line x1="52" y1="218" x2="52" y2="182" stroke="black" stroke-width="0.18"/>
+<line x1="89" y1="218" x2="89" y2="182" stroke="black" stroke-width="0.18"/>
+<line x1="125" y1="218" x2="125" y2="182" stroke="black" stroke-width="0.18"/>
+<line x1="161" y1="218" x2="161" y2="182" stroke="black" stroke-width="0.18"/>
+<line x1="198" y1="218" x2="198" y2="182" stroke="black" stroke-width="0.18"/>
+<line x1="16" y1="191" x2="250" y2="191" stroke="black" stroke-width="0.18"/>
+<line x1="16" y1="200" x2="250" y2="200" stroke="black" stroke-width="0.18"/>
+<line x1="16" y1="209" x2="250" y2="209" stroke="black" stroke-width="0.18"/>
+<text x="18" y="187.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">CIRCUIT</text>
+<text x="54" y="187.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">I (A)</text>
+<text x="91" y="187.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">1.25 I</text>
+<text x="127" y="187.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">mm2</text>
+<text x="163" y="187.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">FUSE A</text>
+<text x="200" y="187.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">DROP V</text>
+<text x="18" y="196.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">C01 main</text>
+<text x="54" y="196.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">56.73</text>
+<text x="91" y="196.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">70.91</text>
+<text x="127" y="196.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">25</text>
+<text x="163" y="196.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">80</text>
+<text x="200" y="196.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">0.102</text>
+<text x="18" y="205.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">C02 / C03</text>
+<text x="54" y="205.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">26.79</text>
+<text x="91" y="205.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">33.48</text>
+<text x="127" y="205.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">10</text>
+<text x="163" y="205.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">40</text>
+<text x="200" y="205.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">0.362 each</text>
+<text x="18" y="214.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">C04 D1 in</text>
+<text x="54" y="214.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">5.95</text>
+<text x="91" y="214.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">7.44</text>
+<text x="127" y="214.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">2.5</text>
+<text x="163" y="214.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">10</text>
+<text x="200" y="214.76" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">0.214 at 120 W</text>
+<text x="260" y="184.0" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">I = P / 22.4 V; Rloop = 2 L rho / A</text>
+<text x="260" y="189.4" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">rho = 0.0225 ohm mm2/m (assumed)</text>
+<text x="260" y="194.8" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">Main + motor feeder: 0.464 V / 2.07%</text>
+<text x="260" y="200.2" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">Excludes contact/fuse/switch losses.</text>
+<text x="260" y="205.6" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">Wire numbers identify conductors, not vendor pins.</text>
+<text x="260" y="211.0" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">No dot at wire crossing = no connection.</text>
+<text x="16" y="229.0" font-family="Arial,Helvetica,sans-serif" font-size="3.12">HOLD: cable ampacity / battery fault current / fuse interrupt rating and selectivity / ESC inrush, UV and regeneration.</text>
+<text x="16" y="234.3" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Switchgear voltage rating &gt;=60 V DC is a target; actual DC breaking capability and fault withstand must be checked.</text>
+</svg>

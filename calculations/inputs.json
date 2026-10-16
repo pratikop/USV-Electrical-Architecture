@@ -1,0 +1,35 @@
+{
+  "status": "Independent conceptual study — unbuilt and unvalidated.",
+  "battery_nominal_v": 25.6,
+  "battery_min_v": 22.4,
+  "battery_max_v": 29.2,
+  "battery_ah": 100,
+  "usable_soc_fraction": 0.8,
+  "capacity_allowance": 0.9,
+  "mission_h": 2,
+  "propulsion_cruise_w_each": 300,
+  "propulsion_peak_w_each": 600,
+  "propulsion_count": 2,
+  "dc_dc_efficiency": 0.9,
+  "dc_dc_output_rating_w": 120,
+  "control_coils_w": 4,
+  "rho_ohm_mm2_per_m": 0.0225,
+  "design_current_factor": 1.25,
+  "hotel_loads_w": {
+    "Autopilot and I/O": 12,
+    "Computer and logger": 10,
+    "GNSS and heading": 6,
+    "Telemetry radio": 12,
+    "Water quality payload": 10,
+    "Deck indication light": 5,
+    "Leak and temperature monitoring": 5
+  },
+  "circuits": [
+    {"id":"C01", "description":"Battery to distribution (+ and return)", "length_one_way_m":1, "area_mm2":25, "fuse_a":80, "assumed_derated_ampacity_a":100, "load":"total_peak", "voltage_v":22.4},
+    {"id":"C02", "description":"Port controller DC feeder (+ and return)", "length_one_way_m":3, "area_mm2":10, "fuse_a":40, "assumed_derated_ampacity_a":50, "load":"motor_peak", "voltage_v":22.4},
+    {"id":"C03", "description":"Starboard controller DC feeder (+ and return)", "length_one_way_m":3, "area_mm2":10, "fuse_a":40, "assumed_derated_ampacity_a":50, "load":"motor_peak", "voltage_v":22.4},
+    {"id":"C04", "description":"DC/DC input feeder (+ and return)", "length_one_way_m":2, "area_mm2":2.5, "fuse_a":10, "assumed_derated_ampacity_a":20, "load":"converter_rating", "voltage_v":22.4},
+    {"id":"C05", "description":"Propulsion permit / coil circuit", "length_one_way_m":2, "area_mm2":0.75, "fuse_a":1, "assumed_derated_ampacity_a":5, "load":"coils", "voltage_v":22.4},
+    {"id":"C06", "description":"DC/DC 12 V output to service panel", "length_one_way_m":0.5, "area_mm2":2.5, "fuse_a":7.5, "assumed_derated_ampacity_a":20, "load":"hotel", "voltage_v":12}
+  ]
+}
