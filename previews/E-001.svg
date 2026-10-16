@@ -35,12 +35,12 @@
 <line x1="10" y1="250" x2="410" y2="250" stroke="black" stroke-width="0.35"/>
 <text x="15" y="259" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">ENV-USV-01  |  CIVILIAN WATER-QUALITY MONITORING</text>
 <text x="15" y="267" font-family="Arial,Helvetica,sans-serif" font-size="4.16">Design basis, single-line architecture and power budget</text>
-<text x="15" y="275" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Prepared for: Pratik Prabhakar Shinde   |   AI-assisted independent study</text>
+<text x="15" y="275" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Prepared for: Pratik Prabhakar Shinde   |   CONCEPT DESIGN / FOR DISCUSSION</text>
 <text x="15" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">DXF generated with Python. Not drafted or validated inside AutoCAD.</text>
 <line x1="285" y1="287" x2="285" y2="250" stroke="black" stroke-width="0.35"/>
 <line x1="350" y1="287" x2="350" y2="250" stroke="black" stroke-width="0.35"/>
 <text x="289" y="258" font-family="Arial,Helvetica,sans-serif" font-size="3.5100000000000002">DRAWING: E-001</text>
-<text x="289" y="266" font-family="Arial,Helvetica,sans-serif" font-size="3.25">REV: B / 17 OCT 2026</text>
+<text x="289" y="266" font-family="Arial,Helvetica,sans-serif" font-size="3.25">REV: C / 17 OCT 2026</text>
 <text x="289" y="274" font-family="Arial,Helvetica,sans-serif" font-size="3.25">CHECK: NOT REVIEWED</text>
 <text x="289" y="282" font-family="Arial,Helvetica,sans-serif" font-size="3.12">APPROVAL: NOT ISSUED</text>
 <text x="354" y="258" font-family="Arial,Helvetica,sans-serif" font-size="3.25">A3 / 420 x 297 mm</text>
@@ -149,10 +149,10 @@
 <text x="192" y="227.76" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Simultaneous peak</text>
 <text x="263" y="179.0" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">ENERGY ESTIMATE (NOT MEASURED)</text>
 <text x="263" y="185.8" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Nominal: 25.6 x 100 = 2560 Wh</text>
-<text x="263" y="192.6" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Planning: 2560 x 0.80 x 0.90 = 1843 Wh</text>
-<text x="263" y="199.4" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Mission: 670.7 x 2 = 1341 Wh</text>
-<text x="263" y="206.2" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Endurance: 1843 / 670.7 = 2.75 h</text>
-<text x="263" y="213.0" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">At 900 W propulsion: only 1.90 h</text>
+<text x="263" y="192.6" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Planning: 1843 Wh (SOC x capacity factors)</text>
+<text x="263" y="199.4" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Mission: 670.7 W x 2 h = 1341 Wh</text>
+<text x="263" y="206.2" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Estimated endurance: 2.75 h</text>
+<text x="263" y="213.0" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">At 900 W propulsion: 1.90 h</text>
 <text x="263" y="219.8" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">Cable/contact losses not explicitly added.</text>
 <text x="263" y="226.6" font-family="Arial,Helvetica,sans-serif" font-size="3.1850000000000005">See calculations/calculations.md.</text>
 </svg>

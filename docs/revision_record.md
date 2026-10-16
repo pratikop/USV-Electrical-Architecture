@@ -5,9 +5,10 @@
 | Revision | Date | Description | Approval |
 |---|---|---|---|
 | A | 17 Oct 2026 | Initial analytical concept and illustrated portfolio | Not issued for construction |
+| C | 17 Oct 2026 | Clarified evidence/limits; engineering review and personal review worksheets; energy estimates linked to calculation module; revised plot typography | Not reviewed / not approved |
 | B | 17 Oct 2026 | Five editable A3 DXF sheets; conductor numbers, terminal references, sheet register, conventional symbols and title blocks | Not reviewed / not approved |
 
-The Rev B CAD set supersedes the presentation diagrams as the main visual deliverable. The Rev A analytical documents remain supporting material. E-003 subdivides the service-panel connector X4 into illustrative terminal pairs; X5 remains the water-payload interface. The main positive/negative architecture, assumed loads, cable sizes and candidate fuse ratings are unchanged.
+The Rev C CAD set supersedes the presentation diagrams as the main visual deliverable. The Rev A analytical documents remain supporting material. E-003 subdivides the service-panel connector X4 into illustrative terminal pairs; X5 remains the water-payload interface. The main positive/negative architecture, assumed loads, cable sizes and candidate fuse ratings are unchanged.
 
 Document checks completed: five-sheet DXF generation; reopening and ezdxf audit without errors; five-page PDF rendering and layout review; independent rendering of the reopened E-002 DXF. Arithmetic checks reproduce 1,843.2 Wh planning energy, 670.67 W baseline demand and 0.3616 V individual propulsion-feeder drop. At 900 W combined propulsion, calculated endurance is below two hours.
 

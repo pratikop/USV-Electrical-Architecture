@@ -4,7 +4,7 @@
 
 Electrical concept for a small civilian environmental-monitoring unmanned surface vessel. Prepared for Pratik Prabhakar Shinde as an independent engineering portfolio project. No Quantum Systems or other employer involvement is implied.
 
-[Open the five-sheet A3 drawing set](pdf/USV_Electrical_Drawings_RevB.pdf) · [Editable DXF files](cad/) · [Calculation record](calculations/calculations.md)
+[Open the five-sheet A3 drawing set](pdf/USV_Electrical_Drawings_RevC.pdf) · [Editable DXF files](cad/) · [Calculation record](calculations/calculations.md)
 
 ![Main DC distribution drawing](previews/E-002.svg)
 
@@ -18,7 +18,21 @@ Electrical concept for a small civilian environmental-monitoring unmanned surfac
 | E-004 | Propulsion-permit concept and proposed commissioning checks | [DXF](cad/E-004.dxf) | [SVG](previews/E-004.svg) |
 | E-005 | Cable schedule, preliminary materials and drawing notes | [DXF](cad/E-005.dxf) | [SVG](previews/E-005.svg) |
 
-Revision B replaces the initial infographic presentation with editable CAD entities, device tags, conductor numbers, terminal references, sheet zones and title blocks. The symbols are simplified engineering conventions; no formal symbol-library conformity is claimed.
+Revision C is a concept design for engineering discussion. Five editable sheets cover electrical architecture, power distribution, services, a functional propulsion-permit path and material schedules. They are not construction or production documents. Simplified symbols are used; formal symbol-library conformity is not claimed.
+
+## Purpose and engineering evidence
+
+The study answers: **how would a small civilian USV distribute and protect its electrical power while keeping its monitoring equipment supplied?** The emphasis is electrical documentation and reasoning, not building a vessel or demonstrating autonomy.
+
+| Work product | Evidence available | Not yet demonstrated |
+|---|---|---|
+| Architecture and power budget | E-001 and reproducible Python estimates | Actual hull/propulsion demand |
+| Multi-line power distribution | E-002, device tags and circuit references | Selected-device connection drawings |
+| Services and sensor interface | E-003, illustrative terminal allocation | Protocol compatibility or integration |
+| Cable and protection sizing | Calculation record, cable take-off and candidate fuses | Verified ampacity, fault current or selectivity |
+| Setting-to-work planning | E-004 and proposed test checklist | Any completed commissioning test |
+
+[Engineering review and open issues](docs/engineering_review.md) identifies what must be resolved before detailed design. [Personal review worksheet](docs/personal_review.md) is for the candidate to complete before presenting the study.
 
 ## Design basis
 
@@ -63,7 +77,7 @@ python3 calculations/calculate.py
 python3 scripts/build_cad.py
 ```
 
-`calculations/inputs.json` owns the numerical assumptions. The CAD generator contains explicit schematic geometry and annotated design values. Changing the JSON recalculates the numerical report but does **not** automatically revise every CAD annotation. Review the calculations, tags, quantities and notes together before issuing another drawing revision.
+`calculations/inputs.json` owns the numerical assumptions. The CAD generator reads the energy estimates from the calculation module. Schematic geometry, ratings and several annotations remain explicit design values. Changing the JSON does **not** automatically revise every CAD annotation. Review the calculations, tags, quantities and notes together before issuing another drawing revision.
 
 ## Review in manageable steps
 

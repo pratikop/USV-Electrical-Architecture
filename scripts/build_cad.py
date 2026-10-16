@@ -8,9 +8,16 @@ import ezdxf
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import mm
 from reportlab.lib.colors import black, white, HexColor
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 from xml.sax.saxutils import escape
 
 ROOT=Path(__file__).resolve().parents[1]
+import sys
+sys.path.insert(0,str(ROOT/'calculations'))
+from calculate import calculate
+INPUTS=json.loads((ROOT/'calculations'/'inputs.json').read_text())
+RESULTS=calculate(INPUTS)
 STATUS='Independent conceptual study — unbuilt and unvalidated.'
 CW,CH=420,297
 
@@ -73,10 +80,10 @@ class Sheet:
         self.line(10,47,410,47,'BORDER')
         self.text(15,38,'ENV-USV-01  |  CIVILIAN WATER-QUALITY MONITORING',3)
         self.text(15,30,self.title,3.2)
-        self.text(15,22,'Prepared for: Pratik Prabhakar Shinde   |   AI-assisted independent study',2.4)
+        self.text(15,22,'Prepared for: Pratik Prabhakar Shinde   |   CONCEPT DESIGN / FOR DISCUSSION',2.4)
         self.text(15,15,'DXF generated with Python. Not drafted or validated inside AutoCAD.',2.2)
         self.line(285,10,285,47,'BORDER');self.line(350,10,350,47,'BORDER')
-        self.text(289,39,'DRAWING: '+self.number,2.7);self.text(289,31,'REV: B / 17 OCT 2026',2.5)
+        self.text(289,39,'DRAWING: '+self.number,2.7);self.text(289,31,'REV: C / 17 OCT 2026',2.5)
         self.text(289,23,'CHECK: NOT REVIEWED',2.5);self.text(289,15,'APPROVAL: NOT ISSUED',2.4)
         self.text(354,39,'A3 / 420 x 297 mm',2.5);self.text(354,31,'SCALE: NTS',2.5)
         self.text(354,23,'UNITS: mm (sheet)',2.3);self.text(354,15,'PLOT: 1:1 / LANDSCAPE',2.1)
@@ -104,7 +111,7 @@ class Sheet:
             elif o[0]=='circle':
                 _,x,y,r,filled=o;c.setDash([]);c.setLineWidth(.2);c.setFillColor(black if filled else white);c.circle(x,y,r,fill=1,stroke=1)
             else:
-                _,x,y,t,h,_=o;c.setFillColor(black);c.setFont('Helvetica',h*1.3);c.drawString(x,y,t)
+                _,x,y,t,h,_=o;c.setFillColor(black);c.setFont('EngineeringText',h*1.25);c.drawString(x,y,t)
         c.restoreState();c.showPage()
     def svg(self,path):
         parts=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 297" width="1680" height="1188"><rect width="420" height="297" fill="white"/>']
@@ -144,10 +151,10 @@ def basis():
         ['TOTAL AT BATTERY','670.7','1270.7','Simultaneous peak']],row_h=9,h=2.4)
     s.lines(263,118,['ENERGY ESTIMATE (NOT MEASURED)',
         'Nominal: 25.6 x 100 = 2560 Wh',
-        'Planning: 2560 x 0.80 x 0.90 = 1843 Wh',
-        'Mission: 670.7 x 2 = 1341 Wh',
-        'Endurance: 1843 / 670.7 = 2.75 h',
-        'At 900 W propulsion: only 1.90 h',
+        f"Planning: {RESULTS['planning_energy_wh']:.0f} Wh (SOC x capacity factors)",
+        f"Mission: {RESULTS['cruise_battery_w']:.1f} W x {INPUTS['mission_h']:g} h = {RESULTS['mission_energy_wh']:.0f} Wh",
+        f"Estimated endurance: {RESULTS['estimated_endurance_h']:.2f} h",
+        f"At 900 W propulsion: {RESULTS['sensitivity'][2]['endurance_h']:.2f} h",
         'Cable/contact losses not explicitly added.',
         'See calculations/calculations.md.'],h=2.45,step=6.8)
     return s
@@ -294,17 +301,20 @@ def schedule():
         '2. Simplified conventional symbols only. Tags/terminal allocations are illustrative, not vendor connection instructions.',
         '3. All ampacities are assumptions. Validate installation derating, connector ratings and fuse curves before design release.',
         '4. Single battery, BMS and converter remain common failure points. No redundancy or standards compliance is claimed.',
-        '5. Rev B replaces rounded infographic blocks with CAD entities, tagged circuits and terminal references; no hardware change.',
+        '5. Rev C: clearer review status, linked energy calculations and engineering evidence/review records; no hardware change.',
         '6. Sources: Victron Wiring Unlimited, DC wiring; Blue Sea Systems Circuit Protection. Full links in docs/engineering_brief.md.',
         '7. No drawings created in AutoCAD, hardware measurements, dynamic simulation or employer involvement are claimed.'
     ],h=2.35,step=5.25)
     return s
 
 if __name__=='__main__':
+    font=Path('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf')
+    if font.exists():pdfmetrics.registerFont(TTFont('EngineeringText',str(font)))
+    else:pdfmetrics.registerFont(pdfmetrics.Font('EngineeringText','Helvetica','WinAnsiEncoding'))
     sheets=[basis(),main_power(),services(),controls(),schedule()]
-    pdf=ROOT/'pdf'/'USV_Electrical_Drawings_RevB.pdf'
+    pdf=ROOT/'pdf'/'USV_Electrical_Drawings_RevC.pdf'
     c=canvas.Canvas(str(pdf),pagesize=(CW*mm,CH*mm))
-    c.setTitle('ENV-USV-01 Electrical Drawing Set Rev B');c.setAuthor('Prepared for Pratik Prabhakar Shinde; AI-assisted conceptual study')
+    c.setTitle('ENV-USV-01 Electrical Concept Drawing Set Rev C');c.setAuthor('Prepared for Pratik Prabhakar Shinde; AI-assisted conceptual study')
     for sh in sheets:sh.save();sh.plot(c)
     c.save()
     print(f'Created {len(sheets)} audited DXF sheets and {pdf}')

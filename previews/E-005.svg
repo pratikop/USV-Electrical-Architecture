@@ -35,12 +35,12 @@
 <line x1="10" y1="250" x2="410" y2="250" stroke="black" stroke-width="0.35"/>
 <text x="15" y="259" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">ENV-USV-01  |  CIVILIAN WATER-QUALITY MONITORING</text>
 <text x="15" y="267" font-family="Arial,Helvetica,sans-serif" font-size="4.16">Cable schedule, preliminary materials and drawing notes</text>
-<text x="15" y="275" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Prepared for: Pratik Prabhakar Shinde   |   AI-assisted independent study</text>
+<text x="15" y="275" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Prepared for: Pratik Prabhakar Shinde   |   CONCEPT DESIGN / FOR DISCUSSION</text>
 <text x="15" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">DXF generated with Python. Not drafted or validated inside AutoCAD.</text>
 <line x1="285" y1="287" x2="285" y2="250" stroke="black" stroke-width="0.35"/>
 <line x1="350" y1="287" x2="350" y2="250" stroke="black" stroke-width="0.35"/>
 <text x="289" y="258" font-family="Arial,Helvetica,sans-serif" font-size="3.5100000000000002">DRAWING: E-005</text>
-<text x="289" y="266" font-family="Arial,Helvetica,sans-serif" font-size="3.25">REV: B / 17 OCT 2026</text>
+<text x="289" y="266" font-family="Arial,Helvetica,sans-serif" font-size="3.25">REV: C / 17 OCT 2026</text>
 <text x="289" y="274" font-family="Arial,Helvetica,sans-serif" font-size="3.25">CHECK: NOT REVIEWED</text>
 <text x="289" y="282" font-family="Arial,Helvetica,sans-serif" font-size="3.12">APPROVAL: NOT ISSUED</text>
 <text x="354" y="258" font-family="Arial,Helvetica,sans-serif" font-size="3.25">A3 / 420 x 297 mm</text>
@@ -168,7 +168,7 @@
 <text x="16" y="208.25" font-family="Arial,Helvetica,sans-serif" font-size="3.055">2. Simplified conventional symbols only. Tags/terminal allocations are illustrative, not vendor connection instructions.</text>
 <text x="16" y="213.5" font-family="Arial,Helvetica,sans-serif" font-size="3.055">3. All ampacities are assumptions. Validate installation derating, connector ratings and fuse curves before design release.</text>
 <text x="16" y="218.75" font-family="Arial,Helvetica,sans-serif" font-size="3.055">4. Single battery, BMS and converter remain common failure points. No redundancy or standards compliance is claimed.</text>
-<text x="16" y="224.0" font-family="Arial,Helvetica,sans-serif" font-size="3.055">5. Rev B replaces rounded infographic blocks with CAD entities, tagged circuits and terminal references; no hardware change.</text>
+<text x="16" y="224.0" font-family="Arial,Helvetica,sans-serif" font-size="3.055">5. Rev C: clearer review status, linked energy calculations and engineering evidence/review records; no hardware change.</text>
 <text x="16" y="229.25" font-family="Arial,Helvetica,sans-serif" font-size="3.055">6. Sources: Victron Wiring Unlimited, DC wiring; Blue Sea Systems Circuit Protection. Full links in docs/engineering_brief.md.</text>
 <text x="16" y="234.5" font-family="Arial,Helvetica,sans-serif" font-size="3.055">7. No drawings created in AutoCAD, hardware measurements, dynamic simulation or employer involvement are claimed.</text>
 </svg>

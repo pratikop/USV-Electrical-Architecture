@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461331.0589467594
+2461331.0763194445
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461331.0589467594
+2461331.0763194445
   9
 $TDUUPDATE
  40
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{EFAC1E20-A253-4515-9F8A-165E7BB672F3}
+{A951190E-C065-4B51-BB4D-234373F58718}
   9
 $VERSIONGUID
   2
-{4A5BE740-B652-4015-B618-91540EC4319C}
+{3AEF731D-1245-4483-8A60-F2A668ABD595}
   9
 $EXTNAMES
 290
@@ -3225,7 +3225,7 @@ AcDbText
  40
 2.4
   1
-Prepared for: Pratik Prabhakar Shinde   |   AI-assisted independent study
+Prepared for: Pratik Prabhakar Shinde   |   CONCEPT DESIGN / FOR DISCUSSION
   7
 CAD_TEXT
 100
@@ -3351,7 +3351,7 @@ AcDbText
  40
 2.5
   1
-REV: B / 17 OCT 2026
+REV: C / 17 OCT 2026
   7
 CAD_TEXT
 100
@@ -6085,7 +6085,7 @@ AcDbText
  40
 2.45
   1
-Planning: 2560 x 0.80 x 0.90 = 1843 Wh
+Planning: 1843 Wh (SOC x capacity factors)
   7
 CAD_TEXT
 100
@@ -6111,7 +6111,7 @@ AcDbText
  40
 2.45
   1
-Mission: 670.7 x 2 = 1341 Wh
+Mission: 670.7 W x 2 h = 1341 Wh
   7
 CAD_TEXT
 100
@@ -6137,7 +6137,7 @@ AcDbText
  40
 2.45
   1
-Endurance: 1843 / 670.7 = 2.75 h
+Estimated endurance: 2.75 h
   7
 CAD_TEXT
 100
@@ -6163,7 +6163,7 @@ AcDbText
  40
 2.45
   1
-At 900 W propulsion: only 1.90 h
+At 900 W propulsion: 1.90 h
   7
 CAD_TEXT
 100
@@ -7223,7 +7223,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-10-16T23:24:53.161849+00:00
+1.4.4 @ 2026-10-16T23:49:54.922156+00:00
   0
 DICTIONARYVAR
   5
@@ -7235,7 +7235,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-10-16T23:24:53.180665+00:00
+1.4.4 @ 2026-10-16T23:49:54.941450+00:00
   0
 ENDSEC
   0
