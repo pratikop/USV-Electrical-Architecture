@@ -2,7 +2,7 @@
 
 **Independent conceptual study — unbuilt and unvalidated.**
 
-Author: Pratik Prabhakar Shinde. Independent portfolio study, 17 October 2026. No employer involvement, proprietary information, certification, construction, simulation or measured performance is claimed. The study demonstrates a proposed engineering workflow; the author should reproduce the calculations and explain the assumptions before submission.
+Author: Pratik Prabhakar Shinde. Independent portfolio study, 17 October 2026. No employer involvement, proprietary information, certification, construction, simulation or measured performance is claimed.
 
 ## Purpose and boundary
 
@@ -80,6 +80,6 @@ Accessed 17 October 2026. Manufacturer guidance supports the method, not the ass
 - Quantum Systems role description: https://career.quantum-systems.com/o/electrical-engineer-mfd-4 (alignment to drawings, BOM and proposed setting-to-work procedures only).
 - Victron Energy, Wiring Unlimited, section 4: https://www.victronenergy.com/media/pg/The_Wiring_Unlimited_book/en/dc-wiring.html (cable resistance, voltage drop and DC protection selection principles).
 - Blue Sea Systems, Circuit Protection: https://www.bluesea.com/resources/96 (protection at distribution branches and cable-size transitions).
-- User-supplied CV/background: Bachelor of Electrical Engineering, ongoing TU Dortmund master's, over three years electrical experience including approximately 14 months at Zener Maritime. No employer deliverables are reproduced.
+- The study uses no employer deliverables or proprietary design information.
 
-All project numbers are explicitly assumed or analytically calculated. No physical or simulated performance has been validated. AutoCAD, MATLAB/Simulink, Python and Excel are supported background tools; this package uses Python-generated vector diagrams and calculations. EPLAN, production harness design, automation programming and USV/UUV integration remain learning areas.
+All project numbers are assumed or analytically calculated. The calculation model uses Python; editable DXF drawings are generated using ezdxf. Hardware measurements and dynamic simulations are outside the scope of this study.

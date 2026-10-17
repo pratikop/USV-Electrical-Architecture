@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461331.088125
+2461331.100023148
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461331.088125
+2461331.100034722
   9
 $TDUUPDATE
  40
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{8A2600DA-D86C-4DCF-9F25-8E7788A59EBB}
+{410C24E7-205E-4D42-B718-474C0087614B}
   9
 $VERSIONGUID
   2
-{F16B9766-D705-4710-B50D-D53994C0C59D}
+{1206F6E3-D9CF-411B-9F23-5F3429E323BC}
   9
 $EXTNAMES
 290
@@ -1327,9 +1327,9 @@ ISM
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -1343,9 +1343,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -3251,7 +3251,7 @@ AcDbText
  40
 2.2
   1
-DXF generated with Python. Not drafted or validated inside AutoCAD.
+DXF R2013 / Layered vector drawing / A3 landscape
   7
 CAD_TEXT
 100
@@ -3351,7 +3351,7 @@ AcDbText
  40
 2.5
   1
-REV: D / 17 OCT 2026
+REV: E / 17 OCT 2026
   7
 CAD_TEXT
 100
@@ -3377,7 +3377,7 @@ AcDbText
  40
 2.5
   1
-CHECK: NOT REVIEWED
+STATUS: CONCEPT
   7
 CAD_TEXT
 100
@@ -3403,7 +3403,7 @@ AcDbText
  40
 2.4
   1
-APPROVAL: NOT ISSUED
+PURPOSE: PORTFOLIO
   7
 CAD_TEXT
 100
@@ -6619,7 +6619,7 @@ AcDbText
  40
 2.35
   1
-5. Rev D: author identification and auxiliary-load terminology clarified. Electrical sizing is unchanged.
+5. Rev E: consolidated portfolio presentation. Electrical architecture and analytical sizing are unchanged.
   7
 CAD_TEXT
 100
@@ -6671,7 +6671,7 @@ AcDbText
  40
 2.35
   1
-7. No drawings created in AutoCAD, hardware measurements, dynamic simulation or employer involvement are claimed.
+7. Results are analytical estimates. Commissioning procedures are proposed and have not been executed.
   7
 CAD_TEXT
 100
@@ -7679,7 +7679,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-10-17T00:06:54.077477+00:00
+1.4.4 @ 2026-10-17T00:24:02.953725+00:00
   0
 DICTIONARYVAR
   5
@@ -7691,7 +7691,7 @@ DictionaryVariables
 280
 0
   1
-1.4.4 @ 2026-10-17T00:06:54.163908+00:00
+1.4.4 @ 2026-10-17T00:24:03.058920+00:00
   0
 ENDSEC
   0

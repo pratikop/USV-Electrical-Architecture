@@ -1,6 +1,6 @@
 """Generate editable AutoCAD-compatible DXF and matching A3 PDF/SVG plots.
 Geometric electrical symbols are simplified conventions, not a certified symbol library.
-No AutoCAD instance is used. DXF R2013, model space in paper millimetres, plot 1:1.
+DXF R2013, model space in paper millimetres, plot 1:1.
 """
 from pathlib import Path
 import json, math, shutil
@@ -81,10 +81,10 @@ class Sheet:
         self.text(15,38,'ENV-USV-01  |  CIVILIAN WATER-QUALITY MONITORING',3)
         self.text(15,30,self.title,3.2)
         self.text(15,22,'Author: Pratik Prabhakar Shinde   |   INDEPENDENT CONCEPT DESIGN',2.4)
-        self.text(15,15,'DXF generated with Python. Not drafted or validated inside AutoCAD.',2.2)
+        self.text(15,15,'DXF R2013 / Layered vector drawing / A3 landscape',2.2)
         self.line(285,10,285,47,'BORDER');self.line(350,10,350,47,'BORDER')
-        self.text(289,39,'DRAWING: '+self.number,2.7);self.text(289,31,'REV: D / 17 OCT 2026',2.5)
-        self.text(289,23,'CHECK: NOT REVIEWED',2.5);self.text(289,15,'APPROVAL: NOT ISSUED',2.4)
+        self.text(289,39,'DRAWING: '+self.number,2.7);self.text(289,31,'REV: E / 17 OCT 2026',2.5)
+        self.text(289,23,'STATUS: CONCEPT',2.5);self.text(289,15,'PURPOSE: PORTFOLIO',2.4)
         self.text(354,39,'A3 / 420 x 297 mm',2.5);self.text(354,31,'SCALE: NTS',2.5)
         self.text(354,23,'UNITS: mm (sheet)',2.3);self.text(354,15,'PLOT: 1:1 / LANDSCAPE',2.1)
     def table(self,x,y,widths,headers,rows,row_h=9,h=2.4):
@@ -242,7 +242,7 @@ def services():
     return s
 
 def controls():
-    s=Sheet('E-004','Propulsion permit concept and commissioning checks')
+    s=Sheet('E-004','Propulsion permit and proposed commissioning procedures')
     s.text(16,253,'HARDWARE PERMIT PATH - FUNCTIONAL CONTACT DIAGRAM, NOT A RELEASED SAFETY CIRCUIT',3)
     s.text(16,237,'A / W030 FROM E-002',2.5)
     y=220
@@ -265,7 +265,7 @@ def controls():
         'Auxiliary feedback needed for fault detection.',
         'Coil suppression / drop-out time TBD.',
         'Welded contact can defeat isolation.'])
-    s.text(16,140,'PROPOSED TESTS - ALL NOT RUN / RECORD INSTRUMENTS, CONDITIONS, VALUES, PASS/FAIL AND EVIDENCE',2.7)
+    s.text(16,140,'PROPOSED COMMISSIONING PROCEDURES - PRELIMINARY ACCEPTANCE TARGETS / NOT EXECUTED',2.7)
     s.table(16,132,[31,82,249],['TEST','METHOD','PROPOSED ACCEPTANCE / HOLD POINT'],[
         ['T01-03','Pre-energization review','Datasheets, fault current, polarity, torque, return continuity and BMS limits approved.'],
         ['T04','Current-limited supply','12 V panel remains 11.4-12.6 V at 60 W; no reset over intended input range.'],
@@ -301,9 +301,9 @@ def schedule():
         '2. Simplified conventional symbols only. Tags/terminal allocations are illustrative, not vendor connection instructions.',
         '3. All ampacities are assumptions. Validate installation derating, connector ratings and fuse curves before design release.',
         '4. Single battery, BMS and converter remain common failure points. No redundancy or standards compliance is claimed.',
-        '5. Rev D: author identification and auxiliary-load terminology clarified. Electrical sizing is unchanged.',
+        '5. Rev E: consolidated portfolio presentation. Electrical architecture and analytical sizing are unchanged.',
         '6. Sources: Victron Wiring Unlimited, DC wiring; Blue Sea Systems Circuit Protection. Full links in docs/engineering_brief.md.',
-        '7. No drawings created in AutoCAD, hardware measurements, dynamic simulation or employer involvement are claimed.'
+        '7. Results are analytical estimates. Commissioning procedures are proposed and have not been executed.'
     ],h=2.35,step=5.25)
     return s
 
@@ -312,9 +312,9 @@ if __name__=='__main__':
     if font.exists():pdfmetrics.registerFont(TTFont('EngineeringText',str(font)))
     else:pdfmetrics.registerFont(pdfmetrics.Font('EngineeringText','Helvetica','WinAnsiEncoding'))
     sheets=[basis(),main_power(),services(),controls(),schedule()]
-    pdf=ROOT/'pdf'/'USV_Electrical_Drawings_RevD.pdf'
+    pdf=ROOT/'pdf'/'USV_Electrical_Drawings_RevE.pdf'
     c=canvas.Canvas(str(pdf),pagesize=(CW*mm,CH*mm))
-    c.setTitle('ENV-USV-01 Electrical Concept Drawing Set Rev D');c.setAuthor('Pratik Prabhakar Shinde')
+    c.setTitle('ENV-USV-01 Electrical Concept Drawing Set Rev E');c.setAuthor('Pratik Prabhakar Shinde')
     for sh in sheets:sh.save();sh.plot(c)
     c.save()
     print(f'Created {len(sheets)} audited DXF sheets and {pdf}')

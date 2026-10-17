@@ -36,13 +36,13 @@
 <text x="15" y="259" font-family="Arial,Helvetica,sans-serif" font-size="3.9000000000000004">ENV-USV-01  |  CIVILIAN WATER-QUALITY MONITORING</text>
 <text x="15" y="267" font-family="Arial,Helvetica,sans-serif" font-size="4.16">Main DC distribution and propulsion feeders</text>
 <text x="15" y="275" font-family="Arial,Helvetica,sans-serif" font-size="3.12">Author: Pratik Prabhakar Shinde   |   INDEPENDENT CONCEPT DESIGN</text>
-<text x="15" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">DXF generated with Python. Not drafted or validated inside AutoCAD.</text>
+<text x="15" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.8600000000000003">DXF R2013 / Layered vector drawing / A3 landscape</text>
 <line x1="285" y1="287" x2="285" y2="250" stroke="black" stroke-width="0.35"/>
 <line x1="350" y1="287" x2="350" y2="250" stroke="black" stroke-width="0.35"/>
 <text x="289" y="258" font-family="Arial,Helvetica,sans-serif" font-size="3.5100000000000002">DRAWING: E-002</text>
-<text x="289" y="266" font-family="Arial,Helvetica,sans-serif" font-size="3.25">REV: D / 17 OCT 2026</text>
-<text x="289" y="274" font-family="Arial,Helvetica,sans-serif" font-size="3.25">CHECK: NOT REVIEWED</text>
-<text x="289" y="282" font-family="Arial,Helvetica,sans-serif" font-size="3.12">APPROVAL: NOT ISSUED</text>
+<text x="289" y="266" font-family="Arial,Helvetica,sans-serif" font-size="3.25">REV: E / 17 OCT 2026</text>
+<text x="289" y="274" font-family="Arial,Helvetica,sans-serif" font-size="3.25">STATUS: CONCEPT</text>
+<text x="289" y="282" font-family="Arial,Helvetica,sans-serif" font-size="3.12">PURPOSE: PORTFOLIO</text>
 <text x="354" y="258" font-family="Arial,Helvetica,sans-serif" font-size="3.25">A3 / 420 x 297 mm</text>
 <text x="354" y="266" font-family="Arial,Helvetica,sans-serif" font-size="3.25">SCALE: NTS</text>
 <text x="354" y="274" font-family="Arial,Helvetica,sans-serif" font-size="2.9899999999999998">UNITS: mm (sheet)</text>
