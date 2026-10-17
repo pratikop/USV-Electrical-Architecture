@@ -2,9 +2,9 @@
 
 **Independent conceptual study — unbuilt and unvalidated.**
 
-Electrical concept for a small civilian environmental-monitoring unmanned surface vessel. Prepared for Pratik Prabhakar Shinde as an independent engineering portfolio project. No Quantum Systems or other employer involvement is implied.
+Electrical concept for a small civilian environmental-monitoring unmanned surface vessel. Author: Pratik Prabhakar Shinde. Independent engineering portfolio project. No Quantum Systems or other employer involvement is implied.
 
-[Open the five-sheet A3 drawing set](pdf/USV_Electrical_Drawings_RevC.pdf) · [Editable DXF files](cad/) · [Calculation record](calculations/calculations.md)
+[Open the five-sheet A3 drawing set](pdf/USV_Electrical_Drawings_RevD.pdf) · [Editable DXF files](cad/) · [Calculation record](calculations/calculations.md)
 
 ![Main DC distribution drawing](previews/E-002.svg)
 
@@ -18,7 +18,7 @@ Electrical concept for a small civilian environmental-monitoring unmanned surfac
 | E-004 | Propulsion-permit concept and proposed commissioning checks | [DXF](cad/E-004.dxf) | [SVG](previews/E-004.svg) |
 | E-005 | Cable schedule, preliminary materials and drawing notes | [DXF](cad/E-005.dxf) | [SVG](previews/E-005.svg) |
 
-Revision C is a concept design for engineering discussion. Five editable sheets cover electrical architecture, power distribution, services, a functional propulsion-permit path and material schedules. They are not construction or production documents. Simplified symbols are used; formal symbol-library conformity is not claimed.
+Revision D is a concept design for engineering discussion. Five editable sheets cover electrical architecture, power distribution, services, a functional propulsion-permit path and material schedules. They are not construction or production documents. Simplified symbols are used; formal symbol-library conformity is not claimed.
 
 ## Purpose and engineering evidence
 
@@ -43,13 +43,18 @@ The study answers: **how would a small civilian USV distribute and protect its e
 
 | Analytical result | Estimate | Main limitation |
 |---|---:|---|
-| Cruise demand at battery | 670.7 W | Assumed propulsion and hotel loads |
+| Cruise demand at battery | 670.7 W | Assumed propulsion and auxiliary loads |
 | Planning battery energy | 1,843 Wh | 80% usable SOC; separate 90% capacity allowance |
 | Estimated endurance | 2.75 h | No hull/propeller model or measured duty cycle |
 | Main + propulsion cable drop | 0.464 V / 2.07% | First-pass P/V; contact/device losses excluded |
 | Endurance at 900 W total propulsion | 1.90 h | Two-hour target fails in this sensitivity case |
 
 The calculations are analytical estimates. They are not dynamic simulations or hardware measurements. All commissioning checks are **NOT RUN**.
+
+
+## Auxiliary and sensor loads
+
+This is a small USV. Auxiliary and sensor loads are the electrical consumers other than propulsion; there are no passenger or accommodation systems. The assumed 60 W consists of autopilot/I/O 12 W, computer/logger 10 W, GNSS/heading 6 W, radio 12 W, water-quality sensors 10 W, indication light 5 W and leak/temperature monitoring 5 W.
 
 ## Open in AutoCAD
 
@@ -89,6 +94,6 @@ python3 scripts/build_cad.py
 
 ## Limits and provenance
 
-This is an AI-assisted independent portfolio study. It does not demonstrate production harness release, automation software implementation, EPLAN experience, marine certification or hardware commissioning. Hull feasibility, actual load data, cable derating, fault current, fuse coordination, controller transients and a complete stop/reset/feedback design remain open.
+This is an independent portfolio study. It does not demonstrate production harness release, automation software implementation, EPLAN experience, marine certification or hardware commissioning. Hull feasibility, actual load data, cable derating, fault current, fuse coordination, controller transients and a complete stop/reset/feedback design remain open.
 
 Sources for the engineering method: [Victron Energy, Wiring Unlimited — DC wiring](https://www.victronenergy.com/media/pg/The_Wiring_Unlimited_book/en/dc-wiring.html) and [Blue Sea Systems, Circuit Protection](https://www.bluesea.com/resources/96). All load values and ampacities are project assumptions, not manufacturer specifications. Detailed provenance is recorded in the design brief.

@@ -1,7 +1,7 @@
 {
   "status": "Independent conceptual study — unbuilt and unvalidated.",
   "method": "Analytical estimates, not simulation or measurement",
-  "hotel_w": 60,
+  "auxiliary_w": 60,
   "cruise_battery_w": 670.6666666666666,
   "peak_battery_w": 1270.6666666666667,
   "nominal_energy_wh": 2560.0,
@@ -108,7 +108,7 @@
       "area_mm2": 2.5,
       "fuse_a": 7.5,
       "assumed_derated_ampacity_a": 20,
-      "load": "hotel",
+      "load": "auxiliary",
       "voltage_v": 12,
       "current_a": 5.0,
       "design_current_a": 6.25,

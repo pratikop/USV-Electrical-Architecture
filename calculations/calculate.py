@@ -7,15 +7,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 
 def calculate(a):
-    hotel = sum(a['hotel_loads_w'].values())
-    overhead = hotel / a['dc_dc_efficiency'] + a['control_coils_w']
+    auxiliary = sum(a['auxiliary_loads_w'].values())
+    overhead = auxiliary / a['dc_dc_efficiency'] + a['control_coils_w']
     cruise = a['propulsion_count'] * a['propulsion_cruise_w_each'] + overhead
     peak = a['propulsion_count'] * a['propulsion_peak_w_each'] + overhead
     energy = a['battery_nominal_v'] * a['battery_ah']
     usable = energy * a['usable_soc_fraction'] * a['capacity_allowance']
     powers = {'total_peak':peak, 'motor_peak':a['propulsion_peak_w_each'],
               'converter_rating':a['dc_dc_output_rating_w']/a['dc_dc_efficiency'],
-              'coils':a['control_coils_w'], 'hotel':hotel}
+              'coils':a['control_coils_w'], 'auxiliary':auxiliary}
     rows = []
     for c in a['circuits']:
         current = powers[c['load']] / c['voltage_v']
@@ -29,10 +29,10 @@ def calculate(a):
     # End-to-end sums use main feeder at simultaneous peak as a conservative bound.
     motor_drop = rows[0]['drop_v']+rows[1]['drop_v']
     converter_drop = rows[0]['drop_v']+rows[3]['drop_v']
-    # Main feeder screening at full converter rating, rather than 60 W hotel demand.
+    # Main feeder screening at full converter rating, rather than 60 W auxiliary demand.
     full_converter_peak = a['propulsion_count']*a['propulsion_peak_w_each']+powers['converter_rating']+a['control_coils_w']
     return {'status':a['status'], 'method':'Analytical estimates, not simulation or measurement',
-            'hotel_w':hotel, 'cruise_battery_w':cruise, 'peak_battery_w':peak,
+            'auxiliary_w':auxiliary, 'cruise_battery_w':cruise, 'peak_battery_w':peak,
             'nominal_energy_wh':energy, 'planning_energy_wh':usable,
             'mission_energy_wh':cruise*a['mission_h'], 'estimated_endurance_h':usable/cruise,
             'energy_margin_fraction':usable/(cruise*a['mission_h'])-1,
@@ -51,7 +51,7 @@ if __name__ == '__main__':
     lines = ['# Calculation record', '', a['status'], '',
              'All inputs are design assumptions. No hull model, dynamic simulation or hardware measurement.', '',
              '## Energy and power', '',
-             f"Hotel load = {r['hotel_w']:.0f} W at 12 V; DC/DC input = {r['hotel_w']/a['dc_dc_efficiency']:.2f} W.",
+             f"Auxiliary and sensor loads = {r['auxiliary_w']:.0f} W at 12 V; DC/DC input = {r['auxiliary_w']/a['dc_dc_efficiency']:.2f} W.",
              f"Cruise = 2 x 300 + 60/0.90 + 4 = {r['cruise_battery_w']:.2f} W.",
              f"Simultaneous peak = 2 x 600 + 60/0.90 + 4 = {r['peak_battery_w']:.2f} W.",
              f"Nominal energy = 25.6 x 100 = {r['nominal_energy_wh']:.0f} Wh.",

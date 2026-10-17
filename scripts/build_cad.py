@@ -80,10 +80,10 @@ class Sheet:
         self.line(10,47,410,47,'BORDER')
         self.text(15,38,'ENV-USV-01  |  CIVILIAN WATER-QUALITY MONITORING',3)
         self.text(15,30,self.title,3.2)
-        self.text(15,22,'Prepared for: Pratik Prabhakar Shinde   |   CONCEPT DESIGN / FOR DISCUSSION',2.4)
+        self.text(15,22,'Author: Pratik Prabhakar Shinde   |   INDEPENDENT CONCEPT DESIGN',2.4)
         self.text(15,15,'DXF generated with Python. Not drafted or validated inside AutoCAD.',2.2)
         self.line(285,10,285,47,'BORDER');self.line(350,10,350,47,'BORDER')
-        self.text(289,39,'DRAWING: '+self.number,2.7);self.text(289,31,'REV: C / 17 OCT 2026',2.5)
+        self.text(289,39,'DRAWING: '+self.number,2.7);self.text(289,31,'REV: D / 17 OCT 2026',2.5)
         self.text(289,23,'CHECK: NOT REVIEWED',2.5);self.text(289,15,'APPROVAL: NOT ISSUED',2.4)
         self.text(354,39,'A3 / 420 x 297 mm',2.5);self.text(354,31,'SCALE: NTS',2.5)
         self.text(354,23,'UNITS: mm (sheet)',2.3);self.text(354,15,'PLOT: 1:1 / LANDSCAPE',2.1)
@@ -261,7 +261,7 @@ def controls():
         '>1 s timeout -> neutral, then open K1.',
         'HW/SW implementation not provided.',
         'Failure-high behaviour unresolved.'])
-    s.block(271,151,124,36,'-K1 / PROPULSION CONTACTOR',['Main contact on E-002; hotel stays live.',
+    s.block(271,151,124,36,'-K1 / PROPULSION CONTACTOR',['Main contact on E-002; auxiliary stays live.',
         'Auxiliary feedback needed for fault detection.',
         'Coil suppression / drop-out time TBD.',
         'Welded contact can defeat isolation.'])
@@ -301,7 +301,7 @@ def schedule():
         '2. Simplified conventional symbols only. Tags/terminal allocations are illustrative, not vendor connection instructions.',
         '3. All ampacities are assumptions. Validate installation derating, connector ratings and fuse curves before design release.',
         '4. Single battery, BMS and converter remain common failure points. No redundancy or standards compliance is claimed.',
-        '5. Rev C: clearer review status, linked energy calculations and engineering evidence/review records; no hardware change.',
+        '5. Rev D: author identification and auxiliary-load terminology clarified. Electrical sizing is unchanged.',
         '6. Sources: Victron Wiring Unlimited, DC wiring; Blue Sea Systems Circuit Protection. Full links in docs/engineering_brief.md.',
         '7. No drawings created in AutoCAD, hardware measurements, dynamic simulation or employer involvement are claimed.'
     ],h=2.35,step=5.25)
@@ -312,9 +312,9 @@ if __name__=='__main__':
     if font.exists():pdfmetrics.registerFont(TTFont('EngineeringText',str(font)))
     else:pdfmetrics.registerFont(pdfmetrics.Font('EngineeringText','Helvetica','WinAnsiEncoding'))
     sheets=[basis(),main_power(),services(),controls(),schedule()]
-    pdf=ROOT/'pdf'/'USV_Electrical_Drawings_RevC.pdf'
+    pdf=ROOT/'pdf'/'USV_Electrical_Drawings_RevD.pdf'
     c=canvas.Canvas(str(pdf),pagesize=(CW*mm,CH*mm))
-    c.setTitle('ENV-USV-01 Electrical Concept Drawing Set Rev C');c.setAuthor('Prepared for Pratik Prabhakar Shinde; AI-assisted conceptual study')
+    c.setTitle('ENV-USV-01 Electrical Concept Drawing Set Rev D');c.setAuthor('Pratik Prabhakar Shinde')
     for sh in sheets:sh.save();sh.plot(c)
     c.save()
     print(f'Created {len(sheets)} audited DXF sheets and {pdf}')

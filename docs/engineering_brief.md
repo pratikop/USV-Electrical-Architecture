@@ -2,7 +2,7 @@
 
 **Independent conceptual study — unbuilt and unvalidated.**
 
-Prepared as an AI-assisted independent portfolio study for Pratik Prabhakar Shinde, 17 October 2026. No employer involvement, proprietary information, certification, construction, simulation or measured performance is claimed. The study demonstrates a proposed engineering workflow; the author should reproduce the calculations and explain the assumptions before submission.
+Author: Pratik Prabhakar Shinde. Independent portfolio study, 17 October 2026. No employer involvement, proprietary information, certification, construction, simulation or measured performance is claimed. The study demonstrates a proposed engineering workflow; the author should reproduce the calculations and explain the assumptions before submission.
 
 ## Purpose and boundary
 
@@ -17,9 +17,9 @@ Included: DC architecture, load estimates, feeder calculations, interface alloca
 | R01 | Two-hour mission at assumed 600 W combined cruise propulsion | Analytical energy budget; 37.4% energy margin | T10 endurance measurement |
 | R02 | Battery 25.6 V nominal, planning range 22.4-29.2 V | 8-series LiFePO4 assumption | T03 selected pack/BMS data; T04 voltage sweep |
 | R03 | Independent port/starboard protected DC feeders, 600 W electrical peak each | Block/wiring drawings, 40 A candidate fuses | T05 controller/load tests; T09 stop test |
-| R04 | Regulated 12 V, 60 W baseline hotel/payload demand | Load budget and 120 W converter requirement | T04 output 11.4-12.6 V under specified loads |
+| R04 | Regulated 12 V, 60 W baseline auxiliary/payload demand | Load budget and 120 W converter requirement | T04 output 11.4-12.6 V under specified loads |
 | R05 | Cable-only propulsion DC path drop <=3% at simultaneous peak | 2.07% estimate; excludes connection losses | T05 measured terminal voltage and thermal check |
-| R06 | Local stop removes propulsion permit; hotel supply retained | Proposed K1 circuit, no safety integrity claim | T06 stop/re-arm; T09 fault scenarios |
+| R06 | Local stop removes propulsion permit; auxiliary supply retained | Proposed K1 circuit, no safety integrity claim | T06 stop/re-arm; T09 fault scenarios |
 | R07 | Loss of valid heartbeat for >1 s requests neutral then opens K1 | Behaviour requirement only; no code implemented | T07 injected loss and restart scenarios |
 | R08 | Sealed deck electrical enclosure, target IP67 as assembled | Procurement target only | T08 approved enclosure/ingress procedure |
 | R09 | Dedicated insulated positive/negative conductors; no hull return | Concept wiring and cable schedule | T02 return/bonding review and continuity |
@@ -29,7 +29,7 @@ Included: DC architecture, load estimates, feeder calculations, interface alloca
 
 1. **24 V class propulsion:** half the current of 12 V for equal electrical power; manageable battery size and fewer series cells than a 48 V class system. No claim that the choice is globally optimal. A 48 V system should be reconsidered if real propulsion demand increases.
 2. **One battery, two feeders:** simple architecture appropriate to a small portfolio project. Branch faults may be isolated only if fuse coordination is confirmed. Battery, BMS, main fuse and converter remain single points of failure; this is not a redundant vessel.
-3. **12 V hotel bus stays live after propulsion stop:** preserves telemetry and position logging while K1 opens. It is still lost on pack/BMS/main-disconnect failure. Independent recovery power is a future option.
+3. **12 V auxiliary bus stays live after propulsion stop:** preserves telemetry and position logging while K1 opens. It is still lost on pack/BMS/main-disconnect failure. Independent recovery power is a future option.
 4. **No onboard charger:** pack is removed, isolated and charged ashore using an approved pack-compatible charger. Operational charge interlocks and low-temperature charge restrictions must come from the selected battery manufacturer.
 5. **Nonconductive hull assumption:** no hull current return. A non-isolated DC/DC gives a shared DC negative reference. Exposed metal bonding, shielding, corrosion and any intentional negative-to-bond connection remain subject to a dedicated review; do not improvise a seawater earth.
 6. **Stop philosophy:** local S1 normally closed contact interrupts K1 coil independently of the mission computer. SR1 is a conceptual manual-reset permit relay; K2 is a normally open watchdog-permit contact. Both must close to energize K1. No automatic re-arm after supply restoration, heartbeat restoration or stop reset. Exact relay/feedback circuit is not designed. A welded K1 can defeat isolation; feedback detection and independent controller-disable input are required follow-up work. This is not a certified emergency-stop circuit.

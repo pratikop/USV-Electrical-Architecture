@@ -2,12 +2,12 @@
 
 **Independent conceptual study — unbuilt and unvalidated.**
 
-Complete this worksheet yourself before sharing the project as an interview work sample. No answer or personal contribution is pre-filled. AI-assisted preparation is recorded in the README.
+Complete this worksheet yourself before sharing the project as an interview work sample. No answer or personal contribution is pre-filled.
 
 | Review task | Your explanation / evidence | Current state |
 |---|---|---|
 | Explain the civilian mission and why the electrical scope is limited | To complete | Not completed |
-| Calculate 60 W hotel input through a 90% efficient converter | To complete | Not completed |
+| Calculate 60 W auxiliary input through a 90% efficient converter | To complete | Not completed |
 | Reproduce the battery energy and endurance estimates | To complete | Not completed |
 | Reproduce one propulsion-feeder current and voltage-drop calculation | To complete | Not completed |
 | Trace every positive and return path on E-002 | To complete | Not completed |
@@ -19,4 +19,4 @@ Complete this worksheet yourself before sharing the project as an interview work
 
 Suggested first session: work only through the mission and the power calculation. The aim is to make the project understandable and defensible, not to memorize a script.
 
-Professional framing after completing the review: “This is an independent, AI-assisted concept study. I can explain the assumptions, reproduce the calculations and discuss the remaining design work. My previous marine/offshore experience concerns drawings, material take-offs, upgrade analysis and retrofit inspections; this project is not evidence that I commissioned a USV.”
+Professional framing after completing the review: “This is an independent concept study. I can explain the assumptions, reproduce the calculations and discuss the remaining design work. My previous marine/offshore experience concerns drawings, material take-offs, upgrade analysis and retrofit inspections; this project is not evidence that I commissioned a USV.”

@@ -6,7 +6,7 @@ All inputs are design assumptions. No hull model, dynamic simulation or hardware
 
 ## Energy and power
 
-Hotel load = 60 W at 12 V; DC/DC input = 66.67 W.
+Auxiliary and sensor loads = 60 W at 12 V; DC/DC input = 66.67 W.
 Cruise = 2 x 300 + 60/0.90 + 4 = 670.67 W.
 Simultaneous peak = 2 x 600 + 60/0.90 + 4 = 1270.67 W.
 Nominal energy = 25.6 x 100 = 2560 Wh.
