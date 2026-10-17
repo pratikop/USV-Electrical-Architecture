@@ -56,17 +56,13 @@ The DXFs contain editable geometric entities, text and named layers. Sheet forma
 - [Preliminary bill of materials](docs/preliminary_bom.md)
 - [Proposed commissioning procedures](docs/commissioning_plan.md)
 
-## Files and tools
+## CAD tool and deliverables
 
-Calculations use Python with editable JSON inputs. Drawings use Python/ezdxf and are provided as DXF R2013, with PDF and SVG plots. The DXFs can be opened in AutoCAD or another DXF-compatible CAD application.
+**CAD tool: AutoCAD**
 
-```bash
-python3 -m pip install -r requirements.txt
-python3 calculations/calculate.py
-python3 scripts/build_cad.py
-```
+Electrical drawings are supplied as editable DXF R2013 files, with PDF and SVG plots. DXF operation in AutoCAD has been confirmed by the project author.
 
-Numerical inputs are stored in `calculations/inputs.json`. The drawing generator reads energy estimates from the calculation module; schematic geometry, protection ratings and other annotations are explicit design values and must be revised together when inputs change.
+Calculation inputs are stored in `calculations/inputs.json`; the [calculation source](calculations/calculate.py) and [drawing source](scripts/build_cad.py) are included for reproducibility. Schematic geometry, protection ratings and annotations must be revised together when numerical inputs change.
 
 ## References
 
