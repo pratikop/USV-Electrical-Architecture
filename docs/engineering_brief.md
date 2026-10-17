@@ -82,4 +82,4 @@ Accessed 17 October 2026. Manufacturer guidance supports the method, not the ass
 - Blue Sea Systems, Circuit Protection: https://www.bluesea.com/resources/96 (protection at distribution branches and cable-size transitions).
 - The study uses no employer deliverables or proprietary design information.
 
-All project numbers are assumed or analytically calculated. The calculation model uses Python; editable DXF drawings are generated using ezdxf. Hardware measurements and dynamic simulations are outside the scope of this study.
+CAD tool: AutoCAD. Drawings are supplied as editable DXF R2013 files with PDF and SVG plots; DXF operation in AutoCAD has been confirmed by the project author. All project numbers are assumed or analytically calculated, with the calculation source included for reproducibility. Hardware measurements and dynamic simulations are outside the scope of this study.
